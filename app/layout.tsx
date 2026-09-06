@@ -5,7 +5,11 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://qijackson1.github.io"),
   title: "Jason Qi | Robotics & Embodied Intelligence",
   description: "Jason Qi's personal website, featuring research in reinforcement learning, imitation learning, exoskeleton robotics, embodied motion control, and motor control.",
-  icons: { icon: "/github-mark.svg" },
+  icons: {
+    icon: [{ url: "/github-favicon.png", type: "image/png", sizes: "64x64" }],
+    shortcut: "/github-favicon.png",
+    apple: [{ url: "/github-favicon.png", sizes: "64x64" }],
+  },
   openGraph: {
     title: "Jason Qi | Robotics & Embodied Intelligence",
     description: "Research in reinforcement learning, imitation learning, exoskeleton robotics, embodied motion control, and motor control.",
