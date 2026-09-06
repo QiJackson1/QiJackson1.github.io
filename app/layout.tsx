@@ -3,29 +3,29 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://qijackson1.github.io"),
-  title: "Jason Qi · 戚凯杰 | 机器人与具身智能",
-  description: "戚凯杰（Jason Qi）的个人主页，聚焦强化学习、模仿学习、外骨骼机器人、具身运动控制与电机控制。",
+  title: "Jason Qi | Robotics & Embodied Intelligence",
+  description: "Jason Qi's personal website, featuring research in reinforcement learning, imitation learning, exoskeleton robotics, embodied motion control, and motor control.",
   icons: { icon: "/avatar.jpg", apple: "/avatar.jpg" },
   openGraph: {
-    title: "Jason Qi · 戚凯杰 | 机器人与具身智能",
-    description: "强化学习、模仿学习、外骨骼机器人、具身运动控制与电机控制。",
+    title: "Jason Qi | Robotics & Embodied Intelligence",
+    description: "Research in reinforcement learning, imitation learning, exoskeleton robotics, embodied motion control, and motor control.",
     url: "https://qijackson1.github.io/",
     siteName: "Jason Qi",
-    locale: "zh_CN",
+    locale: "en_US",
     type: "website",
     images: [{ url: "/og.png", width: 1200, height: 630, alt: "Jason Qi - Robotics, Embodied AI and Motor Control" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Jason Qi · 戚凯杰 | 机器人与具身智能",
-    description: "强化学习、模仿学习、外骨骼机器人、具身运动控制与电机控制。",
+    title: "Jason Qi | Robotics & Embodied Intelligence",
+    description: "Research in reinforcement learning, imitation learning, exoskeleton robotics, embodied motion control, and motor control.",
     images: ["/og.png"],
   },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="zh-CN">
+    <html lang="en">
       <body>{children}</body>
     </html>
   );

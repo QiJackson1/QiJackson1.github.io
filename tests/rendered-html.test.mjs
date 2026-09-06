@@ -7,10 +7,11 @@ const projectRoot = new URL("../", import.meta.url);
 test("exports a complete GitHub Pages homepage", async () => {
   const html = await readFile(new URL("dist/client/index.html", projectRoot), "utf8");
   assert.match(html, /Jason Qi/);
-  assert.match(html, /机器人与具身智能/);
-  assert.match(html, /代表性论文/);
-  assert.match(html, /核心项目/);
-  assert.match(html, /教育与经历/);
+  assert.match(html, /Robotics &amp; Embodied Intelligence/);
+  assert.match(html, /Selected Publications/);
+  assert.match(html, /Selected Projects/);
+  assert.match(html, /Education &amp; Experience/);
+  assert.doesNotMatch(html, /[\u3400-\u9fff]/);
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape/);
   await access(new URL("dist/client/avatar.jpg", projectRoot));
   await access(new URL("dist/client/og.png", projectRoot));
