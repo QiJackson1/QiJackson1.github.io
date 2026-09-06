@@ -15,6 +15,8 @@ test("exports a complete GitHub Pages homepage", async () => {
   assert.match(html, /<h2>Experience<\/h2>/);
   assert.match(html, /Li Auto · Humanoid Robotics/);
   assert.match(html, /HONOR Device Co\., Ltd\. · Humanoid Robotics/);
+  assert.match(html, /exoskeleton robotics\.<br\/>GPA: 3\.82\/4\.0/);
+  assert.match(html, /nanoindentation testing\.<br\/>GPA: 3\.77\/4\.0/);
   assert.match(html, /<h2>Awards<\/h2>/);
   assert.match(html, /<h2>Honors<\/h2>/);
   assert.match(html, /Henan Advanced Graphics Competition/);

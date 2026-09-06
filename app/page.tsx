@@ -50,7 +50,7 @@ export default function Home() {
           <section id="about" className="intro-section">
             <h2>About Me</h2>
             <p>
-              Hi, I'm Kaijie Qi. I am a PhD candidate in Computer Science and Technology at the College of AI, Tsinghua University. My research focuses on
+              Hi, I&apos;m Kaijie Qi. I am a PhD candidate in Computer Science and Technology at the College of AI, Tsinghua University. My research focuses on
               <strong> Embodied AI for Robotics, Exoskeleton &amp; Humanoid Robotics, PMSM Design &amp; Control</strong>. I received my master&apos;s degree from
               Tsinghua&apos;s Department of Mechanical Engineering, where I built full-stack R&amp;D experience spanning mechanical design,
               electric motors, and algorithms for exoskeleton robots, specialized motors, and sensorless control.
@@ -117,11 +117,11 @@ export default function Home() {
               </article>
               <article>
                 <div className="time">Sep 2023 — Jun 2026</div>
-                <div><h3>Tsinghua University · Department of Mechanical Engineering</h3><p className="timeline-role">M.S. in Mechanical Engineering</p><p>Research on large-air-gap separated-stator-and-rotor motors, sensorless control, multimodal physiological sensing, and exoskeleton robotics. GPA: 3.82/4.0; ranked 5/76 by GPA and 1st overall in the second year.</p></div>
+                <div><h3>Tsinghua University · Department of Mechanical Engineering</h3><p className="timeline-role">M.S. in Mechanical Engineering</p><p>Research on large-air-gap separated-stator-and-rotor motors, sensorless control, multimodal physiological sensing, and exoskeleton robotics.<br />GPA: 3.82/4.0; ranked 5/76 by GPA and 1st overall in the second year.</p></div>
               </article>
               <article>
                 <div className="time">Sep 2019 — Jun 2023</div>
-                <div><h3>Zhengzhou University · School of Mechanical and Power Engineering</h3><p className="timeline-role">B.Eng. in Mechanical Engineering · Excellence Program</p><p>Research on mechanical-property characterization and nanoindentation testing. GPA: 3.77/4.0; ranked 2/299 by GPA and 1st overall for two consecutive academic years.</p></div>
+                <div><h3>Zhengzhou University · School of Mechanical and Power Engineering</h3><p className="timeline-role">B.Eng. in Mechanical Engineering · Excellence Program</p><p>Research on mechanical-property characterization and nanoindentation testing.<br />GPA: 3.77/4.0; ranked 2/299 by GPA and 1st overall for two consecutive academic years.</p></div>
               </article>
             </div>
           </section>
