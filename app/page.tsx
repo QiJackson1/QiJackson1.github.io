@@ -13,6 +13,7 @@ export default function Home() {
         <nav aria-label="Primary navigation">
           <a className="active" href="#about">About</a>
           <a href="#publications">Publications</a>
+          <a href="#patents">Patents</a>
           <a href="#experience">Experience</a>
           <a href="#honors">Honors</a>
         </nav>
