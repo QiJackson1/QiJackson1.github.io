@@ -9,11 +9,10 @@ export default function Home() {
   return (
     <div className={dark ? "site dark" : "site"}>
       <header className="topbar">
-        <a className="brand" href="#about" aria-label="Back to home">Jason Qi</a>
+        <a className="brand" href="#about" aria-label="Back to home">Kaijie Qi</a>
         <nav aria-label="Primary navigation">
           <a className="active" href="#about">About</a>
           <a href="#publications">Publications</a>
-          <a href="#projects">Projects</a>
           <a href="#experience">Experience</a>
           <a href="#honors">Honors</a>
         </nav>
@@ -26,7 +25,7 @@ export default function Home() {
         <aside className="profile-card">
           <Image className="portrait" src="/profile-speaking.jpg" alt="Kaijie Qi presenting at a conference" width={244} height={282} priority unoptimized />
           <h1>Kaijie Qi</h1>
-          <p className="english-name">Jason Qi</p>
+          <p className="english-name">戚凯杰</p>
           <p className="role">PhD Candidate</p>
           <p className="affiliation">College of AI, Tsinghua University</p>
           <p className="role">Master</p>
