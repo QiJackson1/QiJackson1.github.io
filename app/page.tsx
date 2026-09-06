@@ -58,12 +58,6 @@ export default function Home() {
               I build robotic systems for the real world: algorithms that respect hardware constraints, and electromechanical designs
               that create better conditions for learning-based control.
             </p>
-            <div className="metrics" aria-label="Career highlights">
-              <div><strong>2</strong><span>Publications</span></div>
-              <div><strong>5+</strong><span>Invention Patents</span></div>
-              <div><strong>99%</strong><span>Multi-Terrain Walking Success</span></div>
-              <div><strong>1st</strong><span>Master&apos;s Overall Ranking</span></div>
-            </div>
           </section>
 
           <section id="publications">
@@ -75,7 +69,7 @@ export default function Home() {
               <div className="pub-year">2026</div>
               <div>
                 <h3>Design and Cableless Close-Loop Control of a Separated-Structure Magnetic Actuator with Large Air Gap for Confined-Space Application</h3>
-                <p className="authors"><strong>Kaijie Qi</strong>, Yunzhi Chen, Zhenguo Nie</p>
+                <p className="authors"><strong>Kaijie Qi</strong>, Yunzhi Chen, Jianxing Li, Zhenguo Nie</p>
                 <p className="venue">IEEE Transactions on Mechatronics</p>
                 <p>Designed a separated-structure magnetic actuator with a large air gap and developed a cableless closed-loop control method for confined-space applications.</p>
                 <a className="paper-link" href="https://ieeexplore.ieee.org/document/11618735" target="_blank" rel="noreferrer">View Paper ↗</a>
@@ -88,7 +82,16 @@ export default function Home() {
                 <p className="authors"><strong>Kaijie Qi</strong>, Dai Li, Handing Xu, Zikang Li, Hongshi Huang, Zhenguo Nie</p>
                 <p className="venue">17th International Conference on Intelligent Robotics and Applications (ICIRA), Oral</p>
                 <p>Developed a five-degree-of-freedom serial underactuated rehabilitation mechanism with real-time multimodal monitoring of joint torque, angle, speed, and EMG signals.</p>
-                <a className="paper-link" href="https://doi.org/10.1007/978-981-96-0792-1_27" target="_blank" rel="noreferrer">DOI ↗</a>
+                <a className="paper-link" href="https://doi.org/10.1007/978-981-96-0792-1_27" target="_blank" rel="noreferrer">View Paper ↗</a>
+              </div>
+            </article>
+            <article className="publication-card">
+              <div className="pub-year">2024</div>
+              <div>
+                <h3>An AI-Driven Pulsation Method of pVADs for Cardiac Digital Twins</h3>
+                <p className="authors">Chaoran E, Chenghan Chen, <strong>Kaijie Qi</strong>, et al</p>
+                <p className="venue">International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), Oral</p>
+                <p>Artificial heart flow prediction based on deep learning.</p>
               </div>
             </article>
           </section>
