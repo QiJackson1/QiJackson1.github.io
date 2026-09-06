@@ -38,7 +38,7 @@ export default function Home() {
           <div className="interest-box">
             <h2>Research Interests</h2>
             <p>Reinforcement &amp; Imitation Learning</p>
-            <p>WHole Body Control</p>
+            <p>Whole Body Control</p>
             <p>Exoskeletons &amp; Humanoid Robots</p>
             <p>PMSM Design &amp; Control</p>
           </div>
@@ -50,7 +50,7 @@ export default function Home() {
             <h2>About Me</h2>
             <p>
               I am a PhD candidate in Computer Science and Technology at the College of AI, Tsinghua University. My research focuses on
-              <strong> reinforcement learning, imitation learning, and embodied motion control for robots</strong>. I received my master&apos;s degree from
+              <strong> Embodied AI for Robotics, Exoskeleton &amp; Humanoid Robotics, PMSM Design &amp; Control</strong>. I received my master&apos;s degree from
               Tsinghua&apos;s Department of Mechanical Engineering, where I built full-stack R&amp;D experience spanning mechanical design,
               electric motors, and algorithms for exoskeleton robots, specialized motors, and sensorless control.
             </p>
