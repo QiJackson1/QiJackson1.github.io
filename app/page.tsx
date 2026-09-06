@@ -27,7 +27,7 @@ export default function Home() {
           <Image className="portrait" src="/profile-speaking.jpg" alt="Kaijie Qi presenting at a conference" width={244} height={282} priority unoptimized />
           <h1>Kaijie Qi</h1>
           <p className="english-name">Jason Qi</p>
-          <p className="role">PhD Candidate · Robotics R&amp;D</p>
+          <p className="role">PhD Candidate</p>
           <p className="affiliation">College of AI, Tsinghua University</p>
           <div className="contact-links">
             <a href="mailto:qkjtsinghua@163.com">Email</a>
@@ -36,9 +36,9 @@ export default function Home() {
           <div className="interest-box">
             <h2>Research Interests</h2>
             <p>Reinforcement &amp; Imitation Learning</p>
-            <p>Embodied Motion Control</p>
+            <p>WHole Body Control</p>
             <p>Exoskeletons &amp; Humanoid Robots</p>
-            <p>PMSM Control</p>
+            <p>PMSM Design &amp; Control</p>
           </div>
         </aside>
 
