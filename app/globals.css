@@ -30,8 +30,8 @@ nav a:hover, nav a.active { color: var(--ink); background: var(--accent-soft); }
 .portrait { width: 244px; height: 282px; object-fit: cover; object-position: 68% center; border-radius: 24px; filter: saturate(.88); box-shadow: 0 17px 30px rgba(30, 38, 48, .15); }
 .profile-card h1 { margin: 30px 0 3px; font: 700 38px/1.2 Georgia, "Noto Serif SC", serif; letter-spacing: .12em; }
 .english-name { margin: 0; color: var(--muted); font-family: Georgia, serif; font-size: 19px; }
-.role { margin: 22px 0 4px; color: var(--accent); font-size: 20px; font-weight: 720; }
-.affiliation { margin: 0; color: var(--muted); }
+.role { margin: 12px 0 2px; color: var(--accent); font-size: 20px; font-weight: 720; line-height: 1.25; }
+.affiliation { margin: 0; color: var(--muted); line-height: 1.3; }
 .contact-links { margin: 26px 0; display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; }
 .contact-links a { padding: 8px 12px; border: 1px solid var(--line); border-radius: 999px; color: var(--muted); font-size: 13px; font-weight: 650; }
 .contact-links a:hover { color: var(--accent); border-color: var(--accent); }
