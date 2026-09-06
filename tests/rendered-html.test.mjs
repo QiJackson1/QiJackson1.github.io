@@ -11,8 +11,10 @@ test("exports a complete GitHub Pages homepage", async () => {
   assert.match(html, /Selected Publications/);
   assert.match(html, /Selected Projects/);
   assert.match(html, /Education &amp; Experience/);
+  assert.match(html, /github-mark\.svg/);
   assert.doesNotMatch(html, /[\u3400-\u9fff]/);
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape/);
   await access(new URL("dist/client/avatar.jpg", projectRoot));
+  await access(new URL("dist/client/github-mark.svg", projectRoot));
   await access(new URL("dist/client/og.png", projectRoot));
 });

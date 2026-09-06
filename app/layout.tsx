@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://qijackson1.github.io"),
   title: "Jason Qi | Robotics & Embodied Intelligence",
   description: "Jason Qi's personal website, featuring research in reinforcement learning, imitation learning, exoskeleton robotics, embodied motion control, and motor control.",
-  icons: { icon: "/avatar.jpg", apple: "/avatar.jpg" },
+  icons: { icon: "/github-mark.svg" },
   openGraph: {
     title: "Jason Qi | Robotics & Embodied Intelligence",
     description: "Research in reinforcement learning, imitation learning, exoskeleton robotics, embodied motion control, and motor control.",
