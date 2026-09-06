@@ -29,6 +29,8 @@ export default function Home() {
           <p className="english-name">Jason Qi</p>
           <p className="role">PhD Candidate</p>
           <p className="affiliation">College of AI, Tsinghua University</p>
+          <p className="role">Master</p>
+          <p className="affiliation">Mechanical Engineering, Tsinghua University</p>
           <div className="contact-links">
             <a href="mailto:qkjtsinghua@163.com">Email</a>
             <a href="https://github.com/QiJackson1" target="_blank" rel="noreferrer">GitHub</a>
