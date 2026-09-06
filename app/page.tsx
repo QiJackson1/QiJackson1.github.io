@@ -14,6 +14,7 @@ export default function Home() {
           <a className="active" href="#about">About</a>
           <a href="#publications">Publications</a>
           <a href="#patents">Patents</a>
+          <a href="#education">Education</a>
           <a href="#experience">Experience</a>
           <a href="#honors">Honors</a>
         </nav>
@@ -107,24 +108,34 @@ export default function Home() {
             </div>
           </section>
 
-          <section id="experience">
-            <div className="section-heading"><div><span>JOURNEY</span><h2>Education &amp; Experience</h2></div></div>
+          <section id="education">
+            <div className="section-heading"><div><span>ACADEMIC JOURNEY</span><h2>Education</h2></div></div>
             <div className="timeline">
               <article>
                 <div className="time">Sep 2026 — Present</div>
-                <div><h3>Tsinghua University · College of AI</h3><p className="timeline-role">PhD Candidate · Computer Science and Technology</p><p>Full-stack research in reinforcement learning, imitation learning, exoskeleton motors and systems, and embodied motion-control algorithms.</p></div>
-              </article>
-              <article>
-                <div className="time">Mar 2025 — Jul 2025</div>
-                <div><h3>HONOR Device Co., Ltd. · Humanoid Robotics</h3><p className="timeline-role">Motion Control Intern · First Intern in the Department</p><p>Contributed to humanoid robot joint modules, motor control, reducers, and full-body mechanical design.</p></div>
+                <div><h3>Tsinghua University · College of AI</h3><p className="timeline-role">PhD Candidate · Computer Science and Technology</p><p>Research on legged-robot locomotion and full-stack design of exoskeleton motors, robotic systems, and embodied motion-control algorithms.</p></div>
               </article>
               <article>
                 <div className="time">Sep 2023 — Jun 2026</div>
-                <div><h3>Tsinghua University · Department of Mechanical Engineering</h3><p className="timeline-role">M.S. in Mechanical Engineering</p><p>GPA: 3.82/4.0; ranked 5/76 by GPA and 1st overall in the second year.</p></div>
+                <div><h3>Tsinghua University · Department of Mechanical Engineering</h3><p className="timeline-role">M.S. in Mechanical Engineering</p><p>Research on large-air-gap separated-stator-and-rotor motors, sensorless control, multimodal physiological sensing, and exoskeleton robotics. GPA: 3.82/4.0; ranked 5/76 by GPA and 1st overall in the second year.</p></div>
               </article>
               <article>
                 <div className="time">Sep 2019 — Jun 2023</div>
-                <div><h3>Zhengzhou University · School of Mechanical and Power Engineering</h3><p className="timeline-role">B.Eng. in Mechanical Engineering · Excellence Program</p><p>GPA: 3.77/4.0; ranked 2/299 by GPA and 1st overall for two consecutive academic years.</p></div>
+                <div><h3>Zhengzhou University · School of Mechanical and Power Engineering</h3><p className="timeline-role">B.Eng. in Mechanical Engineering · Excellence Program</p><p>Research on mechanical-property characterization and nanoindentation testing. GPA: 3.77/4.0; ranked 2/299 by GPA and 1st overall for two consecutive academic years.</p></div>
+              </article>
+            </div>
+          </section>
+
+          <section id="experience">
+            <div className="section-heading"><div><span>INDUSTRY</span><h2>Experience</h2></div></div>
+            <div className="timeline">
+              <article>
+                <div className="time">Jul 2026 — Present</div>
+                <div><h3>Li Auto · Humanoid Robotics</h3><p className="timeline-role">Motion Control Intern</p><p>Research on whole-body motion control for humanoid robots.</p></div>
+              </article>
+              <article>
+                <div className="time">Mar 2025 — Jul 2025</div>
+                <div><h3>HONOR Device Co., Ltd. · Humanoid Robotics</h3><p className="timeline-role">Specially Appointed Motion Control Intern · First Intern in the Department</p><p>Contributed to humanoid robot joint-module design and high-performance control, reducer design, and full-body mechanical design.</p></div>
               </article>
             </div>
           </section>
