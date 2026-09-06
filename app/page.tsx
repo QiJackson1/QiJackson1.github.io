@@ -47,7 +47,6 @@ export default function Home() {
 
         <div className="content-column">
           <section id="about" className="intro-section">
-            <p className="eyebrow">ROBOTICS · EMBODIED AI · MOTOR CONTROL</p>
             <h2>About Me</h2>
             <p>
               I am a PhD candidate in Computer Science and Technology at the College of AI, Tsinghua University. My research focuses on
@@ -158,7 +157,7 @@ export default function Home() {
                 <ul>
                   <li><strong>Tsinghua Medical-Engineering Innovation Competition</strong><span>Champion</span></li>
                   <li><strong>National Advanced Graphics Competition</strong><span>National First Prize</span></li>
-                  <li><strong>National Marine Vehicle Design Contest</strong><span>National Second Prize</span></li>
+                  <li><strong>Marine Vehicle Design Contest</strong><span>National Second Prize</span></li>
                   <li><strong>Chinese Mathematics Competitions</strong><span>Provincial First Prize</span></li>
                   <li><strong>Tsinghua Craftsman Competition</strong><span>Third Place</span></li>
                 </ul>
