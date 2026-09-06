@@ -26,7 +26,7 @@ export default function Home() {
         <aside className="profile-card">
           <Image className="portrait" src="/profile-speaking.jpg" alt="Kaijie Qi presenting at a conference" width={244} height={282} priority unoptimized />
           <h1>Kaijie Qi</h1>
-          <p className="english-name"><strong></>戚凯杰<strong></p>
+          <p className="english-name"><strong>戚凯杰</strong></p>
           <p className="role">PhD Candidate</p>
           <p className="affiliation">College of AI, Tsinghua University</p>
           <p className="role">Master</p>

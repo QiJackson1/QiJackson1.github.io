@@ -6,14 +6,15 @@ const projectRoot = new URL("../", import.meta.url);
 
 test("exports a complete GitHub Pages homepage", async () => {
   const html = await readFile(new URL("dist/client/index.html", projectRoot), "utf8");
-  assert.match(html, /Jason Qi/);
+  assert.match(html, /Kaijie Qi/);
+  assert.match(html, /<strong>戚凯杰<\/strong>/);
   assert.match(html, /Robotics &amp; Embodied Intelligence/);
   assert.match(html, /Selected Publications/);
-  assert.match(html, /Selected Projects/);
+  assert.match(html, /Selected Patents/);
   assert.match(html, /Education &amp; Experience/);
   assert.match(html, /rel="icon" href="\/github-favicon\.png"/);
   assert.match(html, /rel="shortcut icon" href="\/github-favicon\.png"/);
-  assert.doesNotMatch(html, /[\u3400-\u9fff]/);
+  assert.doesNotMatch(html.replaceAll("戚凯杰", ""), /[\u3400-\u9fff]/);
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape/);
   await access(new URL("dist/client/profile-speaking.jpg", projectRoot));
   await access(new URL("dist/client/github-favicon.png", projectRoot));
