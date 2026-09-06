@@ -50,7 +50,7 @@ export default function Home() {
           <section id="about" className="intro-section">
             <h2>About Me</h2>
             <p>
-              I am a PhD candidate in Computer Science and Technology at the College of AI, Tsinghua University. My research focuses on
+              Hi, I'm Kaijie Qi. I am a PhD candidate in Computer Science and Technology at the College of AI, Tsinghua University. My research focuses on
               <strong> Embodied AI for Robotics, Exoskeleton &amp; Humanoid Robotics, PMSM Design &amp; Control</strong>. I received my master&apos;s degree from
               Tsinghua&apos;s Department of Mechanical Engineering, where I built full-stack R&amp;D experience spanning mechanical design,
               electric motors, and algorithms for exoskeleton robots, specialized motors, and sensorless control.
@@ -77,6 +77,15 @@ export default function Home() {
               </div>
             </article>
             <article className="publication-card">
+              <div className="pub-year">2026</div>
+              <div>
+                <h3>An AI-Driven Pulsation Method of pVADs for Cardiac Digital Twins</h3>
+                <p className="authors">Chaoran E, Chenghan Chen, <strong>Kaijie Qi</strong>, et al</p>
+                <p className="venue">International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), Oral</p>
+                <p>Artificial heart flow prediction based on deep learning.</p>
+              </div>
+            </article>
+            <article className="publication-card">
               <div className="pub-year">2024</div>
               <div>
                 <h3>Design and Development of a Five-Degree-of-Freedom Knee Joint Rehabilitation Robot with Multimode Signal Monitoring</h3>
@@ -84,15 +93,6 @@ export default function Home() {
                 <p className="venue">17th International Conference on Intelligent Robotics and Applications (ICIRA), Oral</p>
                 <p>Developed a five-degree-of-freedom serial underactuated rehabilitation mechanism with real-time multimodal monitoring of joint torque, angle, speed, and EMG signals.</p>
                 <a className="paper-link" href="https://doi.org/10.1007/978-981-96-0792-1_27" target="_blank" rel="noreferrer">View Paper ↗</a>
-              </div>
-            </article>
-            <article className="publication-card">
-              <div className="pub-year">2024</div>
-              <div>
-                <h3>An AI-Driven Pulsation Method of pVADs for Cardiac Digital Twins</h3>
-                <p className="authors">Chaoran E, Chenghan Chen, <strong>Kaijie Qi</strong>, et al</p>
-                <p className="venue">International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), Oral</p>
-                <p>Artificial heart flow prediction based on deep learning.</p>
               </div>
             </article>
           </section>
