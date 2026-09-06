@@ -16,6 +16,7 @@ export default function Home() {
           <a href="#patents">Patents</a>
           <a href="#education">Education</a>
           <a href="#experience">Experience</a>
+          <a href="#awards">Awards</a>
           <a href="#honors">Honors</a>
         </nav>
         <button className="theme-toggle" onClick={() => setDark(!dark)} aria-label="Toggle light and dark mode">
@@ -139,27 +140,44 @@ export default function Home() {
             </div>
           </section>
 
+          <section id="awards">
+            <div className="section-heading"><div><span>COMPETITIONS</span><h2>Awards</h2></div></div>
+            <div className="honors-layout single-column">
+              <div className="honor-group">
+                <h3>Competition Awards</h3>
+                <ul>
+                  <li><strong>National Advanced Graphics Competition</strong><span>National First Prize</span></li>
+                  <li><strong>Marine Vehicle Design Contest</strong><span>National Second Prize</span></li>
+                  <li><strong>Henan Advanced Graphics Competition</strong><span>Provincial Grand Prize</span></li>
+                  <li><strong>Beijing College Student Innovation and Entrepreneurship Competition</strong><span>Provincial First Prize</span></li>
+                  <li><strong>Chinese Mathematics Competitions</strong><span>Provincial First Prize</span></li>
+                  <li><strong>National 3D Digital Innovation Design Competition</strong><span>Provincial Second Prize</span></li>
+                  <li><strong>China-US Young Maker Competition</strong><span>Provincial Second Prize</span></li>
+                  <li><strong>Tsinghua Medical-Engineering Innovation Competition</strong><span>Champion</span></li>
+                  <li><strong>Tsinghua Craftsman Competition</strong><span>Third Place</span></li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
           <section id="honors">
-            <div className="section-heading"><div><span>RECOGNITION</span><h2>Awards &amp; Honors</h2></div></div>
-            <div className="honors-layout">
+            <div className="section-heading"><div><span>RECOGNITION</span><h2>Honors</h2></div></div>
+            <div className="honors-layout single-column">
               <div className="honor-group">
                 <h3>Academic Honors</h3>
                 <ul>
                   <li><strong>National Scholarship</strong><span>2025 · Ranked 1st Overall</span></li>
-                  <li><strong>National Scholarship</strong><span>2020, 2021 · Ranked 1st Overall</span></li>
                   <li><strong>Outstanding Thesis, Tsinghua University</strong><span>2026 · Top 1%</span></li>
                   <li><strong>Outstanding Graduate, Tsinghua University</strong><span>2026 · Top 5%</span></li>
-                  <li><strong>Outstanding Thesis of Henan Province</strong><span>2024</span></li>
-                </ul>
-              </div>
-              <div className="honor-group">
-                <h3>Competitions</h3>
-                <ul>
-                  <li><strong>Tsinghua Medical-Engineering Innovation Competition</strong><span>Champion</span></li>
-                  <li><strong>National Advanced Graphics Competition</strong><span>National First Prize</span></li>
-                  <li><strong>Marine Vehicle Design Contest</strong><span>National Second Prize</span></li>
-                  <li><strong>Chinese Mathematics Competitions</strong><span>Provincial First Prize</span></li>
-                  <li><strong>Tsinghua Craftsman Competition</strong><span>Third Place</span></li>
+                  <li><strong>Tsinghua University First-Class Comprehensive Scholarship</strong><span>2024</span></li>
+                  <li><strong>Outstanding Thesis of Henan Province</strong><span>2024 · Top 0.6%</span></li>
+                  <li><strong>Outstanding Graduate of Henan Province</strong><span>2023</span></li>
+                  <li><strong>Outstanding Graduate of Zhengzhou University</strong><span>2023</span></li>
+                  <li><strong>Zhengzhou University First-Class Scholarship</strong><span>2023</span></li>
+                  <li><strong>National Scholarship</strong><span>2021 · Ranked 1st Overall</span></li>
+                  <li><strong>Tingya Scholarship</strong><span>2021</span></li>
+                  <li><strong>Outstanding Student of Henan Province</strong><span>2020</span></li>
+                  <li><strong>National Scholarship</strong><span>2020 · Ranked 1st Overall</span></li>
                 </ul>
               </div>
             </div>

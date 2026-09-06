@@ -15,6 +15,11 @@ test("exports a complete GitHub Pages homepage", async () => {
   assert.match(html, /<h2>Experience<\/h2>/);
   assert.match(html, /Li Auto · Humanoid Robotics/);
   assert.match(html, /HONOR Device Co\., Ltd\. · Humanoid Robotics/);
+  assert.match(html, /<h2>Awards<\/h2>/);
+  assert.match(html, /<h2>Honors<\/h2>/);
+  assert.match(html, /Henan Advanced Graphics Competition/);
+  assert.match(html, /Tingya Scholarship/);
+  assert.doesNotMatch(html, /Awards &amp; Honors/);
   assert.match(html, /rel="icon" href="\/github-favicon\.png"/);
   assert.match(html, /rel="shortcut icon" href="\/github-favicon\.png"/);
   assert.doesNotMatch(html.replaceAll("戚凯杰", ""), /[\u3400-\u9fff]/);
