@@ -63,7 +63,7 @@ export default function Home() {
           <section id="publications">
             <div className="section-heading">
               <div><span>RESEARCH</span><h2>Selected Publications</h2></div>
-              <span className="section-count">02 / PUBLICATIONS</span>
+              <span className="section-count">03 / PUBLICATIONS</span>
             </div>
             <article className="publication-card featured">
               <div className="pub-year">2026</div>
@@ -96,33 +96,14 @@ export default function Home() {
             </article>
           </section>
 
-          <section id="projects" className="preview-projects">
-            <div className="section-heading"><div><span>ENGINEERING</span><h2>Selected Projects</h2></div></div>
-            <div className="project-grid">
-              <article>
-                <span className="project-index">01</span>
-                <h3>Exoskeleton Robotics &amp; Embodied Control</h3>
-                <p>Built a reinforcement-learning motion-control system with Isaac Lab and rsl_rl, covering robot design, URDF modeling, and multi-terrain locomotion policies.</p>
-                <div className="tags"><span>Isaac Lab</span><span>RL</span><span>AMP</span></div>
-              </article>
-              <article>
-                <span className="project-index">02</span>
-                <h3>Sensorless Control for Large-Air-Gap Motors</h3>
-                <p>Designed the electromagnetic structure of a specialized motor and implemented flux observation and sensorless closed-loop speed control.</p>
-                <div className="tags"><span>PMSM</span><span>FOC</span><span>SMO</span></div>
-              </article>
-              <article>
-                <span className="project-index">03</span>
-                <h3>Humanoid Robot Joint Modules</h3>
-                <p>Designed frameless torque motors for varied joint loads, integrated dual-side magnetic encoders, and implemented position, speed, and torque control on STM32.</p>
-                <div className="tags"><span>Motor Design</span><span>STM32</span><span>FOC</span></div>
-              </article>
-              <article>
-                <span className="project-index">04</span>
-                <h3>Knee Stretching Rehabilitation Exoskeleton</h3>
-                <p>Designed a five-DOF anatomically adaptive mechanism and multimodal sensing system, including compact actuation, full mechanical integration, and real-time monitoring software.</p>
-                <div className="tags"><span>Exoskeleton</span><span>Arduino</span><span>EMG</span></div>
-              </article>
+          <section id="patents">
+            <div className="section-heading"><div><span>INVENTIONS</span><h2>Selected Patents</h2></div></div>
+            <div className="patent-list">
+              <article><span>CN117547439B</span><h3>Adaptive-Center Five-DOF Static Progressive Stretching Trainer for the Knee Joint</h3><em>Granted</em></article>
+              <article><span>CN117618223B</span><h3>Knee Joint Static Progressive Stretching Trainer with an Integrated Signal Detection System</h3><em>Granted</em></article>
+              <article><span>CN119244702A</span><h3>Cycloidal Pinwheel Reducer with a Hollow Structure</h3><em>Published</em></article>
+              <article><span>CN121015293A</span><h3>Device and Method for Controlling the Extension Length of an Intramedullary Lengthening System</h3><em>Published</em></article>
+              <article><span>CN117598768A</span><h3>Electromagnetically Driven Intramedullary Lengthening Nail with a Through-Hole Structure</h3><em>Published</em></article>
             </div>
           </section>
 
@@ -148,17 +129,6 @@ export default function Home() {
             </div>
           </section>
 
-          <section id="patents">
-            <div className="section-heading"><div><span>INVENTIONS</span><h2>Selected Patents</h2></div></div>
-            <div className="patent-list">
-              <article><span>CN117547439B</span><h3>Adaptive-Center Five-DOF Static Progressive Stretching Trainer for the Knee Joint</h3><em>Granted</em></article>
-              <article><span>CN117618223B</span><h3>Knee Joint Static Progressive Stretching Trainer with an Integrated Signal Detection System</h3><em>Granted</em></article>
-              <article><span>CN119244702A</span><h3>Cycloidal Pinwheel Reducer with a Hollow Structure</h3><em>Published</em></article>
-              <article><span>CN121015293A</span><h3>Device and Method for Controlling the Extension Length of an Intramedullary Lengthening System</h3><em>Published</em></article>
-              <article><span>CN117598768A</span><h3>Electromagnetically Driven Intramedullary Lengthening Nail with a Through-Hole Structure</h3><em>Published</em></article>
-            </div>
-          </section>
-
           <section id="honors">
             <div className="section-heading"><div><span>RECOGNITION</span><h2>Awards &amp; Honors</h2></div></div>
             <div className="honors-layout">
@@ -166,9 +136,9 @@ export default function Home() {
                 <h3>Academic Honors</h3>
                 <ul>
                   <li><strong>National Scholarship</strong><span>2025 · Ranked 1st Overall</span></li>
+                  <li><strong>National Scholarship</strong><span>2020, 2021 · Ranked 1st Overall</span></li>
                   <li><strong>Outstanding Thesis, Tsinghua University</strong><span>2026 · Top 1%</span></li>
                   <li><strong>Outstanding Graduate, Tsinghua University</strong><span>2026 · Top 5%</span></li>
-                  <li><strong>National Scholarship</strong><span>2020, 2021 · Ranked 1st Overall</span></li>
                   <li><strong>Outstanding Thesis of Henan Province</strong><span>2024</span></li>
                 </ul>
               </div>
