@@ -15,7 +15,7 @@ test("exports a complete GitHub Pages homepage", async () => {
   assert.match(html, /rel="shortcut icon" href="\/github-favicon\.png"/);
   assert.doesNotMatch(html, /[\u3400-\u9fff]/);
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape/);
-  await access(new URL("dist/client/avatar.jpg", projectRoot));
+  await access(new URL("dist/client/profile-speaking.jpg", projectRoot));
   await access(new URL("dist/client/github-favicon.png", projectRoot));
   await access(new URL("dist/client/og.png", projectRoot));
 });

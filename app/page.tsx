@@ -24,7 +24,7 @@ export default function Home() {
 
       <main className="page-shell">
         <aside className="profile-card">
-          <Image className="portrait" src="/avatar.jpg" alt="Portrait of Kaijie Qi" width={244} height={282} priority unoptimized />
+          <Image className="portrait" src="/profile-speaking.jpg" alt="Kaijie Qi presenting at a conference" width={244} height={282} priority unoptimized />
           <h1>Kaijie Qi</h1>
           <p className="english-name">Jason Qi</p>
           <p className="role">PhD Candidate · Robotics R&amp;D</p>

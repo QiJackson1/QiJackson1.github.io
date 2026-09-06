@@ -27,7 +27,7 @@ nav a:hover, nav a.active { color: var(--ink); background: var(--accent-soft); }
 
 .page-shell { width: min(1380px, calc(100% - 48px)); margin: 0 auto 32px; padding: 64px 48px 90px; background: var(--surface); border: 1px solid var(--line); border-top: 0; border-radius: 0 0 18px 18px; display: grid; grid-template-columns: 320px minmax(0, 1fr); gap: 72px; box-shadow: 0 24px 60px rgba(30, 38, 48, .08); }
 .profile-card { position: sticky; top: 118px; align-self: start; text-align: center; }
-.portrait { width: 244px; height: 282px; object-fit: cover; object-position: center top; border-radius: 24px; filter: saturate(.88); box-shadow: 0 17px 30px rgba(30, 38, 48, .15); }
+.portrait { width: 244px; height: 282px; object-fit: cover; object-position: 68% center; border-radius: 24px; filter: saturate(.88); box-shadow: 0 17px 30px rgba(30, 38, 48, .15); }
 .profile-card h1 { margin: 30px 0 3px; font: 700 38px/1.2 Georgia, "Noto Serif SC", serif; letter-spacing: .12em; }
 .english-name { margin: 0; color: var(--muted); font-family: Georgia, serif; font-size: 19px; }
 .role { margin: 22px 0 4px; color: var(--accent); font-size: 20px; font-weight: 720; }
