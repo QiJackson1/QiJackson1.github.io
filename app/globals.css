@@ -43,7 +43,7 @@ nav a:hover, nav a.active { color: var(--ink); background: var(--accent-soft); }
 section { scroll-margin-top: 120px; margin-bottom: 68px; }
 .eyebrow, .section-heading span { color: var(--accent); font-size: 11px; letter-spacing: .19em; font-weight: 800; }
 .intro-section > h2, .section-heading h2 { margin: 7px 0 22px; font: 700 34px/1.2 Georgia, "Noto Serif SC", serif; }
-.intro-section > p:not(.eyebrow) { max-width: 850px; margin: 0 0 18px; color: var(--muted); font-size: 18px; line-height: 1.9; }
+.intro-section > p:not(.eyebrow) { max-width: 850px; margin: 0 0 18px; color: var(--muted); font-size: 18px; line-height: 1.9; text-align: justify; text-justify: inter-word; hyphens: auto; }
 .intro-section strong { color: var(--ink); }
 .metrics { margin-top: 32px; display: grid; grid-template-columns: repeat(4, 1fr); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
 .metrics div { padding: 20px; text-align: center; border-right: 1px solid var(--line); }
