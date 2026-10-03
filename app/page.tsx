@@ -64,7 +64,7 @@ export default function Home() {
           <section id="publications">
             <div className="section-heading">
               <div><span>RESEARCH</span><h2>Selected Publications</h2></div>
-              <span className="section-count">03 / PUBLICATIONS</span>
+              <span className="section-count">04 / PUBLICATIONS</span>
             </div>
             <article className="publication-card featured">
               <div className="pub-year">2026</div>
@@ -74,6 +74,16 @@ export default function Home() {
                 <p className="venue">IEEE Transactions on Mechatronics</p>
                 <p>Designed a separated-structure magnetic actuator with a large air gap and developed a cableless closed-loop control method for confined-space applications.</p>
                 <a className="paper-link" href="https://ieeexplore.ieee.org/document/11618735" target="_blank" rel="noreferrer">View Paper ↗</a>
+              </div>
+            </article>
+            <article className="publication-card">
+              <div className="pub-year">2026</div>
+              <div>
+                <h3>PhaseSync-Exo: Human Clock Anchored Reference Adaptation for Dynamic Gait Tracking</h3>
+                <p className="authors"><strong>Kaijie Qi</strong>, Yuehan Wang, Kaiming Xu, Chong Li, Jiakuo Yu</p>
+                <p className="venue">arXiv preprint arXiv:2609.38824</p>
+                <p>Combines two-IMU gait reconstruction, recurrent motion control, and human-clock-anchored reference adaptation to track dynamic exoskeleton gait while preserving human timing in simulation.</p>
+                <a className="paper-link" href="https://arxiv.org/abs/2609.38824" target="_blank" rel="noreferrer">View Paper ↗</a>
               </div>
             </article>
             <article className="publication-card">
