@@ -120,17 +120,26 @@ export default function Home() {
 
           <section id="education">
             <div className="section-heading"><div><span>ACADEMIC JOURNEY</span><h2>Education</h2></div></div>
-            <div className="timeline">
+            <div className="timeline education-timeline">
               <article>
-                <div className="time">Sep 2026 — Present</div>
+                <div className="education-date">
+                  <div className="time">Sep 2026 — Present</div>
+                  <Image className="university-seal" src="/tsinghua-seal.svg" alt="" width={64} height={64} unoptimized />
+                </div>
                 <div><h3>Tsinghua University · College of AI</h3><p className="timeline-role">PhD Candidate · Computer Science and Technology</p><p>Research on legged-robot locomotion and full-stack design of exoskeleton motors, robotic systems, and embodied motion-control algorithms.</p></div>
               </article>
               <article>
-                <div className="time">Sep 2023 — Jun 2026</div>
+                <div className="education-date">
+                  <div className="time">Sep 2023 — Jun 2026</div>
+                  <Image className="university-seal" src="/tsinghua-seal.svg" alt="" width={64} height={64} unoptimized />
+                </div>
                 <div><h3>Tsinghua University · Department of Mechanical Engineering</h3><p className="timeline-role">M.S. in Mechanical Engineering</p><p>Research on large-air-gap separated-stator-and-rotor motors, sensorless control, multimodal physiological sensing, and exoskeleton robotics.<br />GPA: 3.82/4.0; ranked 5/76 by GPA and 1st overall in the second year.</p></div>
               </article>
               <article>
-                <div className="time">Sep 2019 — Jun 2023</div>
+                <div className="education-date">
+                  <div className="time">Sep 2019 — Jun 2023</div>
+                  <Image className="university-seal" src="/zhengzhou-seal.svg" alt="" width={64} height={64} unoptimized />
+                </div>
                 <div><h3>Zhengzhou University · School of Mechanical and Power Engineering</h3><p className="timeline-role">B.Eng. in Mechanical Engineering · Excellence Program</p><p>Research on mechanical-property characterization and nanoindentation testing.<br />GPA: 3.77/4.0; ranked 2/299 by GPA and 1st overall for two consecutive academic years.</p></div>
               </article>
             </div>
@@ -140,8 +149,15 @@ export default function Home() {
             <div className="section-heading"><div><span>INDUSTRY</span><h2>Experience</h2></div></div>
             <div className="timeline">
               <article>
-                <div className="time">Jul 2026 — Present</div>
-                <div><h3>Li Auto · Humanoid Robotics</h3><p className="timeline-role">Motion Control Intern</p><p>Research on whole-body motion control for humanoid robots.</p></div>
+                <div className="time">Oct 2026 — Present</div>
+                <div>
+                  <h3>RobotEra · Humanoid Robotics</h3>
+                  <p>Working on perception-aware motion control for humanoid robots.</p>
+                </div>
+              </article>
+              <article>
+                <div className="time">Jul 2026 — Oct 2026</div>
+                <div><h3>Li Auto · Humanoid Robotics</h3><p className="timeline-role">Motion Control Intern</p><p>Researched whole-body motion control for humanoid robots.</p></div>
               </article>
               <article>
                 <div className="time">Mar 2025 — Jul 2025</div>
@@ -193,6 +209,13 @@ export default function Home() {
             </div>
           </section>
 
+          <section id="academic-service" aria-labelledby="academic-service-title">
+            <div className="section-heading">
+              <h2 id="academic-service-title">Academic Service</h2>
+            </div>
+            <p><strong>Reviewer</strong> · ICRA 2027, MEAAC 2026</p>
+          </section>
+
           <section className="toolkit" aria-labelledby="toolkit-title">
             <div><span>TOOLKIT</span><h2 id="toolkit-title">Technical Toolkit</h2></div>
             <div className="tool-cloud">
@@ -202,13 +225,6 @@ export default function Home() {
                 "Robot Mechanical Design", "Electromagnetic FEA", "Python", "Matplotlib"
               ].map((tool) => <span key={tool}>{tool}</span>)}
             </div>
-          </section>
-
-          <section id="academic-service" aria-labelledby="academic-service-title">
-            <div className="section-heading">
-              <h2 id="academic-service-title">Academic Service</h2>
-            </div>
-            <p><strong>Reviewer</strong> · ICRA 2027, MEAAC 2026</p>
           </section>
 
           <footer>
