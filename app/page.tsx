@@ -204,6 +204,13 @@ export default function Home() {
             </div>
           </section>
 
+          <section id="academic-service" aria-labelledby="academic-service-title">
+            <div className="section-heading">
+              <h2 id="academic-service-title">Academic Service</h2>
+            </div>
+            <p><strong>Reviewer</strong> · ICRA 2027, MEAAC 2026</p>
+          </section>
+
           <footer>
             <p>Let&apos;s connect over robotics, embodied intelligence, and high-performance motion control.</p>
             <a href="mailto:qkjtsinghua@163.com">qkjtsinghua@163.com ↗</a>
